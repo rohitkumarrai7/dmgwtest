@@ -1,0 +1,265 @@
+/* Reset and General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+  }
+  
+  .logo img {
+    max-width: 100px;
+  }
+  
+  .menu button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Main Section */
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem;
+    background: #f4f4f4;
+  }
+  
+  .content {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .discover-btn {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background: #ff6f61;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .image {
+    flex: 1;
+    max-width: 50%;
+    position: relative;
+    text-align: center;
+  }
+  
+  .image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .floating-elements {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+  }
+  
+  .decorative {
+    width: 50px;
+    height: 50px;
+    background: #00d1b2;
+    border-radius: 50%;
+  }
+
+  
+
+
+
+
+  /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Image Section */
+.about-image {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Text Section */
+.about-text {
+    flex: 0 0 60%;
+    padding: 0 20px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-text h2 .highlight {
+    color: teal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Services Section */
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.service-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Explore Button */
+.explore-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.explore-btn:hover {
+    background-color: #005f5f;
+}
+
+/* Experience Section */
+.experience-box {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+
+.experience-box h3 {
+    font-size: 3rem;
+    margin: 0;
+    color: #333;
+}
+
+.experience-box p {
+    font-size: 1.2rem;
+    color: #555;
+
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Footer styling */
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+}
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1;
+}
+
+.stat-item h2 {
+  font-size: 36px;
+  color: #00bcd4;
+}
+
+.stat-item p {
+  font-size: 16px;
+  color: #555;
+}
